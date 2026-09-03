@@ -9,8 +9,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         top: 'index.html',
-        competition: 'competition.html',
-        creation: 'creation.html',
       },
     },
   },
