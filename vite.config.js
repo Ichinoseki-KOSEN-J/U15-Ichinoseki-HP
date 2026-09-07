@@ -9,6 +9,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         top: 'index.html',
+        archive2025: 'archive/2025/index.html',
+        archive2025Competition: 'archive/2025/competition.html',
+        archive2025Creation: 'archive/2025/creation.html',
       },
     },
   },
