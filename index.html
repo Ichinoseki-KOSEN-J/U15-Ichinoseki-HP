@@ -63,7 +63,7 @@
                 <li><a href="#overview" class="mobile-link">概要</a></li>
                 <li><a href="#timeschedule" class="mobile-link">タイムスケジュール</a></li>
                 <li><a href="#divisions" class="mobile-link">部門</a></li>
-                <!--<li><a href="#schedule" class="mobile-link">日程</a></li>-->
+                <li><a href="#schedule" class="mobile-link">日程</a></li>
                 <!--<li><a href="#workshop" class="mobile-link">事前講習会</a></li>-->
                 <li><a href="#support" class="mobile-link">主催・協賛</a></li>
                 <li><a href="#contact" class="mobile-link">お問い合わせ</a></li>
@@ -117,11 +117,11 @@
                                     style="animation-delay: 2.3s; animation-fill-mode: both;">一関大会</span>
                             </div>
                         </div>
-                        <!-- <div class="flex justify-center my-10 animate-scale-up"
+                        <div class="flex justify-center my-10 animate-scale-up"
                             style="animation-delay: 2.7s; animation-fill-mode: both;">
-                            <a href="https://forms.gle/McSDzK67WE2FMbpJ8" target="_blank"
+                            <a href="https://forms.cloud.microsoft/r/gitewAPeuj" target="_blank"
                                 class="link-button text-xl sm:text-2xl">今すぐエントリーする</a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,8 +137,9 @@
                 <h2 class="text-4xl font-bold text-center mb-10 md:mb-14">概要</h2>
                 <p class="text-lg pb-0">
                     U-15プログラミングコンテスト一関大会は、小中学生を対象にした地域密着型のITイベントです。
-                    CHaserによる競技部門と自由形式の作品部門の2部門で構成され、創造力と論理力を育みます。<br>
-                    詳細は後日公開予定です。
+                    今年度はCHaserによる競技部門の1部門で構成され、創造力と論理力を育みます。<br>
+		    一関市周辺地域の小学校、中学校に在籍している児童や生徒であればどなたでも参加可能です。
+		    <!-- 詳細は後日公開予定です。-->
                 </p>
                 <p class="text-lg">昨年度の公式サイトは
                     <a href="/archive/2025/index.html" class="text-blue-600 text-lg underline underline-offset-4
@@ -207,8 +208,9 @@
         <!-- TimeSchelude Section -->
         <section id="timeschedule" class="py-20 px-8">
             <div class="container">
-                <h2 class="text-4xl font-bold text-center mb-12">タイムスケジュール</h2>
-                <p class="text-center">詳細は後日公開予定です。</p>
+                <h2 class="text-4xl font-bold text-center mb-12">本戦タイムスケジュール</h2>
+		<!--<p class="text-center">詳細は後日公開予定です。</p>-->
+                <p class="text-center">12月20日(日)13:00より一関高専にて実施予定です。詳細は後日公開予定です。</p>
                 <!--<div class="bg-white rounded-xl p-8 hover-card max-w-2xl mx-auto">
                     <table class="w-full text-left">
                         <tbody>
@@ -246,15 +248,25 @@
         <section id="divisions" class="py-20 px-8">
             <div class="container">
                 <h2 class="text-4xl font-bold text-center mb-12">部門</h2>
-                <p class="text-center">詳細は後日公開予定です。</p>
-                <!--<div class="flex flex-col gap-6 sm:flex-row md:gap-8">
+		<!--<p class="text-center">詳細は後日公開予定です。</p>-->
+                <div class="flex flex-col gap-6 sm:flex-row md:gap-8">
                     <a href="./competition.html" class="bg-white p-10 rounded-2xl flex-1 hover-card">
                         <h3 class="text-3xl font-bold text-blue-800 mb-4">競技部門</h3>
                         <p class="mb-0">
                             CHaserという対戦型プラットフォームを用いて、1対1のAI対戦を行います。
                             ステージ探索、アイテム取得、対戦相手への攻撃など、戦略的なAI設計が問われます。
                         </p>
+                        <p class="mb-0">
+			Scratch風の開発を行える
+			<a href="https://u15-chaser.ichinoseki.ac.jp/">CHaserサイト</a>
+			上で練習してプログラムを作成・テストし、できあがったプログラムを提出してください。
+			プログラムはエントリー時に表示されるURLから提出していただきます。
+                        </p>
                     </a>
+                    <div class="flex flex-col items-center mx-auto mt-7 gap-3">
+                        <a href="https://u15-chaser.ichinoseki.ac.jp/" target="_blank" class="link-button">開発プラットフォームChaser</a>
+		    </div>
+		    <!--
                     <div class="bg-white p-10 rounded-lg flex-1 hover-card">
                         <h3 class="text-3xl font-bold text-yellow-600 mb-4">作品部門</h3>
                         <p class="mb-4">
@@ -268,13 +280,14 @@
                             </a>
                         </div>
                     </div>
-                </div>-->
+		    -->
+                </div>
             </div>
         </section>
         <!-- Divisions Section End -->
 
         <!-- Schedule Section -->
-        <!--<section id="schedule" class="py-20 px-8">
+        <section id="schedule" class="py-20 px-8">
             <div class="container">
                 <h2 class="text-4xl font-bold text-center mb-12">日程</h2>
                 <div class="flex flex-col justify-center">
@@ -284,59 +297,58 @@
                                 <span
                                     class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">1</span>
                                 <h3 class="flex items-center mb-1 text-2xl font-semibold text-gray-900">エントリー受付開始</h3>
-                                <time datetime="2025-08-25"
-                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">8月25日
-                                    (月)</time>
+                                <time datetime="2026-11-11"
+                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">11月11日
+                                    (水)</time>
                             </div>
                             <div class="mb-5 ml-6">
                                 <span
                                     class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">2</span>
                                 <h3 class="text-2xl font-semibold text-gray-900">エントリー受付終了</h3>
-                                <time datetime="2025-09-17"
-                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">9月17日
-                                    (水)</time>
+                                <time datetime="2026-12-01"
+                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">12月01日
+                                    (火)</time>
                             </div>
                             <div class="mb-5 ml-6">
                                 <span
                                     class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">3</span>
-                                <h3 class="text-2xl font-semibold text-gray-900">作品部門 プログラム提出期限</h3>
-                                <time datetime="2025-09-26"
-                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">9月26日
-                                    (金)</time>
+                                <h3 class="text-2xl font-semibold text-gray-900">競技部門 本戦出場権利者への連絡</h3>
+                                <time datetime="2026-12-13"
+                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">12月13日
+                                    (日)まで</time>
                             </div>
                             <div class="mb-5 ml-6">
                                 <span
                                     class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">4</span>
-                                <h3 class="text-2xl font-semibold text-gray-900">競技部門 プログラム提出期限</h3>
-                                <time datetime="2025-10-28"
-                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">10月28日
-                                    (火)</time>
+                                <h3 class="text-2xl font-semibold text-gray-900">競技部門 本戦用プログラム提出期限</h3>
+                                <time datetime="2026-12-18"
+                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">12月18日
+                                    (金)</time>
                             </div>
                             <div class="mb-1 ml-6">
                                 <span
                                     class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">5</span>
                                 <h3 class="text-2xl font-semibold text-gray-900">本戦</h3>
-                                <time datetime="2025-11-09"
-                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">11月9日
+                                <time datetime="2026-12-20"
+                                    class="block mt-1 mb-2 text-lg font-normal leading-none text-gray-900">12月20日
                                     (日)</time>
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col items-center mx-auto mt-7 gap-3">-->
+                    <div class="flex flex-col items-center mx-auto mt-7 gap-3">
                         <!--もとからコメント↓-->
-                        <!-- <a href="https://forms.gle/McSDzK67WE2FMbpJ8" target="_blank" class="link-button">今すぐエントリーする</a> -->
+                        <a href="https://forms.cloud.microsoft/r/gitewAPeuj" target="_blank" class="link-button">今すぐエントリーする</a>
                         
                         <!--<div class="link-button">エントリー受付は終了しました</div>-->
                         
                         <!--もとからコメント②↓-->
                         <!-- <p class="text-gray-500 pl-[1em] -indent-[1em]">※ エントリーには Google アカウントが必要になります。</p> -->
 
-                        <!--
                         <p class="text-gray-900 pl-[1em] -indent-[1em]">プログラムの提出方法はエントリー時の案内をご確認ください。</p>
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>
         <!-- Schedule Section End -->
 
         <!-- Workshop Section -->
